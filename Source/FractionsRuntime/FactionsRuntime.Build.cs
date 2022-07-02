@@ -11,8 +11,9 @@ public class FactionsRuntime : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[]
 		{
-			Path.Combine(ModuleDirectory, "Public/Factions"),
 			Path.Combine(ModuleDirectory, "Public/Data"),
+			Path.Combine(ModuleDirectory, "Public/Factions"),
+			Path.Combine(ModuleDirectory, "Public/Reputation"),
 		});
 
 		PublicDependencyModuleNames.AddRange( new string[] { "Core" });
