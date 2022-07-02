@@ -13,10 +13,10 @@ public class FactionsRuntime : ModuleRules
 		{
 			Path.Combine(ModuleDirectory, "Public/Data"),
 			Path.Combine(ModuleDirectory, "Public/Factions"),
-			Path.Combine(ModuleDirectory, "Public/Reputation"),
+			Path.Combine(ModuleDirectory, "Public/AI"),
 		});
 
-		PublicDependencyModuleNames.AddRange( new string[] { "Core" });
+		PublicDependencyModuleNames.AddRange( new string[] { "Core", "GameplayTasks" });
 		PrivateDependencyModuleNames.AddRange( new string[] { "CoreUObject", "Engine", "AIModule" });
 		if (Target.bBuildEditor == true)
 		{
