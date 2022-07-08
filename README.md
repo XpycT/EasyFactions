@@ -6,3 +6,7 @@
 Factions and relations for your game in blueprints or c++. Based on [Factions Extension](https://www.unrealengine.com/marketplace/en-US/product/factions-extension)
 
 This plugin is for Unreal Engine 5+ and up.
+
+## Demo
+
+Demo project [repository](https://github.com/XpycT/EasyFaction_Demo)
